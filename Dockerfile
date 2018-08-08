@@ -7,7 +7,7 @@ RUN easy_install3 pip
 
 RUN pip3 install virtualenv
 
-RUN git clone https://github.com/LedgerHQ/blue-app-eth
+RUN git clone -b sideload https://github.com/mkrufky/blue-app-eth
 RUN git clone https://github.com/LedgerHQ/blue-loader-python
 RUN git clone https://github.com/LedgerHQ/nanos-secure-sdk
 
@@ -48,9 +48,14 @@ ENV GLYPH_SRC_DIR=/blue-app-eth/glyphs/
 ARG CHAIN
 ENV CHAIN=${CHAIN}
 ENV TARGET="/binaries-$CHAIN"
+RUN mkdir -p ${TARGET}
 
-RUN make -f Makefile.genericwallet
 RUN sed -i s/python/python3/g Makefile.genericwallet
+
+RUN echo "#!/bin/sh" > ${TARGET}/load.sh
+
+#FIXME: we lose " " around ' next line
+RUN make -f Makefile.genericwallet sideloadcmd | tail -n1 >> ${TARGET}/load.sh
 
 RUN cp glyphs/glyphs.* src/
 # RUN GLYPH_SRC_DIR=/blue-app-eth/glyphs/ CHAIN=ethereum
@@ -58,7 +63,6 @@ RUN cp glyphs/glyphs.* src/
 
 RUN make -f Makefile.genericwallet
 
-RUN mkdir -p ${TARGET}
 RUN cp -a bin ${TARGET}/
 RUN cp -a debug ${TARGET}/
 ENTRYPOINT tar --create ${TARGET}
