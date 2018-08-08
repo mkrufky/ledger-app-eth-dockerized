@@ -54,7 +54,7 @@ RUN sed -i s/python/python3/g Makefile.genericwallet
 
 RUN echo "#!/bin/sh" > ${TARGET}/load.sh
 
-RUN make -f Makefile.genericwallet sideloadcmd | tail -n1 | sed s/'--appName '/'--appName "'/1 | sed s/' --appVersion'/'" --appVersion'/1 | sed s/'--path '/'--path "'/g | sed s/' --appFlags'/'" --appFlags'/1 | sed s/'$'/'"'/1 >> ${TARGET}/load.sh
+RUN make -f Makefile.genericwallet sideloadcmd | tail -n1 | sed s/"--dataSize"/"--dataSize `cat debug/app.map |grep _nvram_data_size | tr -s ' ' | cut -f2 -d' '`"/1 | sed s/'--appName '/'--appName "'/1 | sed s/' --appVersion'/'" --appVersion'/1 | sed s/'--path '/'--path "'/g | sed s/' --appFlags'/'" --appFlags'/1 | sed s/'$'/'"'/1 >> ${TARGET}/load.sh
 
 RUN cp glyphs/glyphs.* src/
 # RUN GLYPH_SRC_DIR=/blue-app-eth/glyphs/ CHAIN=ethereum
