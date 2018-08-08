@@ -51,4 +51,11 @@ RUN sed -i s/python/python3/g Makefile.genericwallet
 
 RUN cp glyphs/glyphs.* src/
 # RUN GLYPH_SRC_DIR=/blue-app-eth/glyphs/ CHAIN=ethereum
-RUN make -f Makefile.genericwallet load
+# RUN make -f Makefile.genericwallet load
+
+RUN make -f Makefile.genericwallet
+
+RUN mkdir -p /binaries
+RUN cp -a bin /binaries/
+RUN cp -a debug /binaries/
+ENTRYPOINT tar --create /binaries
