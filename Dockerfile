@@ -47,7 +47,7 @@ ENV GLYPH_SRC_DIR=/blue-app-eth/glyphs/
 
 ARG CHAIN
 ENV CHAIN=${CHAIN}
-ENV TARGET="/binaries-$CHAIN"
+ENV TARGET="/binaries/$CHAIN"
 RUN mkdir -p ${TARGET}
 
 RUN sed -i s/python/python3/g Makefile.genericwallet
