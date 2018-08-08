@@ -7,7 +7,7 @@ RUN easy_install3 pip
 
 RUN pip3 install virtualenv
 
-RUN git clone -b sideload https://github.com/mkrufky/blue-app-eth
+RUN git clone -b sideload-113 https://github.com/mkrufky/blue-app-eth
 RUN git clone https://github.com/LedgerHQ/blue-loader-python
 RUN git clone https://github.com/LedgerHQ/nanos-secure-sdk
 
@@ -35,6 +35,8 @@ RUN . ledger/bin/activate
 RUN pip3 install ledgerblue
 
 WORKDIR /blue-app-eth
+
+RUN mv Makefile Makefile.genericwallet
 
 COPY . .
 RUN mkdir -p src
