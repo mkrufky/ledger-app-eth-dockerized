@@ -44,7 +44,10 @@ RUN cp glyphs.* glyphs/
 RUN alias python=python3
 
 ENV GLYPH_SRC_DIR=/blue-app-eth/glyphs/
-ENV CHAIN=ethereum
+
+ARG CHAIN
+ENV CHAIN=${CHAIN}
+ENV TARGET="/binaries-$CHAIN"
 
 RUN make -f Makefile.genericwallet
 RUN sed -i s/python/python3/g Makefile.genericwallet
@@ -55,7 +58,7 @@ RUN cp glyphs/glyphs.* src/
 
 RUN make -f Makefile.genericwallet
 
-RUN mkdir -p /binaries
-RUN cp -a bin /binaries/
-RUN cp -a debug /binaries/
-ENTRYPOINT tar --create /binaries
+RUN mkdir -p ${TARGET}
+RUN cp -a bin ${TARGET}/
+RUN cp -a debug ${TARGET}/
+ENTRYPOINT tar --create ${TARGET}
