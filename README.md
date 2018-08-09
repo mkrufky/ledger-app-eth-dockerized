@@ -2,7 +2,7 @@
 
 * All `blue-app-eth` apps depend on the latest `ethereum` app that this build system produces.
 
-* Before you begin, Remove *all* apps from the ledger.  Don't worry - your wallet IDs will remain the same when you reinstall your apps later on.
+* Before you begin, Remove *all* apps from the ledger.  You might have to use the ledger manager to remove the apps.  Don't worry - your wallet IDs will remain the same when you reinstall your apps later on.
 
 * Be sure to have docker, python3 and pip3 installed.
 
