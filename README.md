@@ -6,7 +6,7 @@
 
 * Be sure to have docker, python3 and pip3 installed.
 
-* If you use this build system to build and install _any_ ethereum-based apps to your ledger, then _any other_ ethereum-based apps must also be built and installed using this system.  Do not install them via ledger manager - they all must be built and linked against the same version of the `ethereum` app.
+* If you use this build system to build and install _any_ ethereum-based apps to your ledger, then _any other_ ethereum-based apps must also be built and installed using this system.  Do not install them via ledger manager - they _all_ must be built and linked against the same version of the `ethereum` app.
 
 
 Follow the next steps to build and install the `ethereum` app from source.  Follow them again to build and install the `blue-app-eth` app of your choice:
