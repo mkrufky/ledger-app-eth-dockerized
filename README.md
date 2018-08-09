@@ -1,19 +1,23 @@
 # blue-app-eth dockerized builder
 
-1) remember, all apps depend on the latest `ethereum` app.  remove all apps form the ledger, follow the next steps to install the latest `ethereum` app, then follow them again to install the app of your choice
+* All `blue-app-eth` apps depend on the latest `ethereum` app that this build system produces.
 
-2) be sure to have python3 and pip3 installed
+* Before you begin, Remove *all* apps from the ledger.  Don't worry - your wallet IDs will remain the same when you reinstall your apps later on.
 
-3) type `make && make COIN` (replace coin with `ethereum`, or `pirl`, etc)
+* Be sure to have docker, python3 and pip3 installed.
 
-4) hang out
+Follow the next steps to build and install the `ethereum` app from source.  Follow them again to build and install the `blue-app-eth` app of your choice:
 
-5) build output binaries will be written to the `binaries/COIN/` directory
+1) type `make && make COIN` (replace coin with `ethereum`, `pirl`, `akroma`, etc)
 
-6) ledger will ask you to unlock.  it will warn you the app isn't signed.  it will request authorization to install the new app
+2) hang out
+
+3) build output binaries will be written to the `binaries/COIN/` directory
+
+4) ledger will ask you to unlock.  it will warn you the app isn't signed.  it will request authorization to install the new app
 
 
-Now accepting donations:
+##### Now accepting donations:
 ```
 BTC:   331mv5hFaHS2XceyW6yBeWUdhA8rPf5xPH
 ETH:   0x645Ef3204b93DB965aA4cB23eB730b06f85D0EAb
