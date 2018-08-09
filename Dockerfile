@@ -60,8 +60,10 @@ RUN cp glyphs/glyphs.* src/
 
 RUN make -f Makefile.genericwallet
 
+RUN python3 /nanos-secure-sdk/icon.py nanos_app_${CHAIN}.gif hexbitmaponly 2>/dev/null\ > ${TARGET}/icon.hex
+
 RUN echo "#!/bin/sh" > ${TARGET}/load.sh
-RUN make -f Makefile.genericwallet sideloadcmd | tail -n1 | sed s/'--appName '/'--appName "'/1 | sed s/' --appVersion'/'" --appVersion'/1 | sed s/'--path '/'--path "'/g | sed s/' --appFlags'/'" --appFlags'/1 | sed s/'$'/'"'/1 >> ${TARGET}/load.sh
+RUN make -f Makefile.genericwallet sideloadcmd | tail -n1 | sed s/'--appName '/'--appName "'/1 | sed s/' --appVersion'/'" --appVersion'/1 | sed s/'--path '/'--path "'/g | sed s/' --appFlags'/'" --appFlags'/1 | sed s/'$'/'" --icon \`cat icon.hex\`'/1 >> ${TARGET}/load.sh
 
 RUN cp -a bin ${TARGET}/
 RUN cp -a debug ${TARGET}/
