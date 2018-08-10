@@ -37,4 +37,4 @@ UBQ:   0x71821fAf020408547C08E4a1A616EB8970C56D79
 ```
 
 If should should decide to pick up a [Ledger Nano S](https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=MY_TRACKER) from [Ledger](https://www.ledger.com?r=eda7c183c5fc), please consider using my affiliate link:
-[![Ledger Nano S - The secure hardware wallet](https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-2-0x5-0.jpg)]("https://www.ledger.com?r=eda7c183c5fc")
+[![Ledger Nano S - The secure hardware wallet](https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-2-0x5-0.jpg)]("https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=MY_TRACKER")
