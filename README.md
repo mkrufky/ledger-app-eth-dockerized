@@ -35,3 +35,6 @@ MUSIC: 0x3B9410B4380Cc1B7E76bD8670dbB05C65660D6aa
 PIRL:  0x0Ba74954A112D0e753805cbf3318FECea4F5A999
 UBQ:   0x71821fAf020408547C08E4a1A616EB8970C56D79
 ```
+
+If should should decide to pick up a [Ledger Nano S](https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=MY_TRACKER) from [Ledger](https://www.ledger.com?r=eda7c183c5fc), please consider using my affiliate link:
+[![Ledger Nano S - The secure hardware wallet](https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-2-0x5-0.jpg)]("https://www.ledger.com?r=eda7c183c5fc")
