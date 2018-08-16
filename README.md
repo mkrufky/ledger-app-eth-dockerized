@@ -21,22 +21,25 @@ Follow the next steps to build and install the `ethereum` app from source.  Foll
 
 
 ##### Now accepting donations:
+<table><tr><td>
+<table>
+<tr><td align="center"><sub>Network</sub></td><td><sub>Donation Wallet ID</sub></tr>
+<tr><td align="center"><sub><a href="https://www.blockchain.com/btc/address/331mv5hFaHS2XceyW6yBeWUdhA8rPf5xPH">BTC</a></sub></td><td><sub><tt>331mv5hFaHS2XceyW6yBeWUdhA8rPf5xPH</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://etherscan.io/address/0x645Ef3204b93DB965aA4cB23eB730b06f85D0EAb">ETH</a></sub></td><td><sub><tt>0x645Ef3204b93DB965aA4cB23eB730b06f85D0EAb</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://akroma.io/en/explorer/address/0x1a81a763c422E6457617Ce465C2C1cD34242c68C">AKA</a></sub></td><td><sub><tt>0x1a81a763c422E6457617Ce465C2C1cD34242c68C</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://scan.atheios.com/addr/0x1ebd36a9002f7345971ba5c22fb21674e5c0a7cc">ATH</a></sub></td><td><sub><tt>0x1ebd36A9002f7345971ba5c22Fb21674E5c0a7cC</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://cloexplorer.org/addr/0xfd618f2475199229EA2c91B236E1d4Ff852372e0">CLO</a></sub></td><td><sub><tt>0xfd618f2475199229EA2c91B236E1d4Ff852372e0</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://explorer.egem.io/addr/0x526511e177E2fD05bAEBcE43282651c7DB5078aD">EGEM</a></sub></td><td><sub><tt>0x526511e177E2fD05bAEBcE43282651c7DB5078aD</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://gastracker.io/addr/0xc43f7be80b94fba01cf1bde96f80b7716a1f5af8">ETC</a></sub></td><td><sub><tt>0xC43F7bE80b94fba01cF1BdE96f80B7716A1F5aF8</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://explorer.ether1.org/addr/0x087c83e882822E96AD09eF2A15391C88E241AdA8">ETHO</a></sub></td><td><sub><tt>0x087c83e882822E96AD09eF2A15391C88E241AdA8</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://www.gander.tech/address/0x36833FC0f1f11365d1a65333F4Ad5eb378254963">EXP</a></sub></td><td><sub><tt>0x36833FC0f1f11365d1a65333F4Ad5eb378254963</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://explorer.musicoin.org/account/0x3B9410B4380Cc1B7E76bD8670dbB05C65660D6aa">MUSIC</a></sub></td><td><sub><tt>0x3B9410B4380Cc1B7E76bD8670dbB05C65660D6aa</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://poseidon.pirl.io/explorer/address/0x0Ba74954A112D0e753805cbf3318FECea4F5A999">PIRL</a></sub></td><td><sub><tt>0x0Ba74954A112D0e753805cbf3318FECea4F5A999</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://ubiqscan.io/en/address/0x71821fAf020408547C08E4a1A616EB8970C56D79">UBIQ</a></sub></td><td><sub><tt>0x71821fAf020408547C08E4a1A616EB8970C56D79</tt></sub></td></tr>
+</table>
+</td><td width=300 valign="bottom">
+<sub>If you should decide to pick up a <a href="https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=MY_TRACKER">Ledger Nano S</a> from <a href="https://www.ledger.com?r=eda7c183c5fc">Ledger</a>, please consider using my affiliate link:</sub>
 
-<sub>Network</sub> | <sub>Donation Wallet ID</sub>
---------|--------
-<sub>[BTC](https://www.blockchain.com/btc/address/331mv5hFaHS2XceyW6yBeWUdhA8rPf5xPH)</sub> | <sub>`331mv5hFaHS2XceyW6yBeWUdhA8rPf5xPH`</sub>
-<sub>[ETH](https://etherscan.io/address/0x645Ef3204b93DB965aA4cB23eB730b06f85D0EAb)</sub> | <sub>`0x645Ef3204b93DB965aA4cB23eB730b06f85D0EAb`</sub>
-<sub>[AKA](https://akroma.io/en/explorer/address/0x1a81a763c422E6457617Ce465C2C1cD34242c68C)</sub> | <sub>`0x1a81a763c422E6457617Ce465C2C1cD34242c68C`</sub>
-<sub>[ATH](https://scan.atheios.com/addr/0x1ebd36a9002f7345971ba5c22fb21674e5c0a7cc)</sub> | <sub>`0x1ebd36A9002f7345971ba5c22Fb21674E5c0a7cC`</sub>
-<sub>[CLO](https://cloexplorer.org/addr/0xfd618f2475199229EA2c91B236E1d4Ff852372e0)</sub> | <sub>`0xfd618f2475199229EA2c91B236E1d4Ff852372e0`</sub>
-<sub>[EGEM](https://explorer.egem.io/addr/0x526511e177E2fD05bAEBcE43282651c7DB5078aD)</sub> | <sub>`0x526511e177E2fD05bAEBcE43282651c7DB5078aD`</sub>
-<sub>[ETC](https://gastracker.io/addr/0xc43f7be80b94fba01cf1bde96f80b7716a1f5af8)</sub> | <sub>`0xC43F7bE80b94fba01cF1BdE96f80B7716A1F5aF8`</sub>
-<sub>[ETHO](https://explorer.ether1.org/addr/0x087c83e882822E96AD09eF2A15391C88E241AdA8)</sub> | <sub>`0x087c83e882822E96AD09eF2A15391C88E241AdA8`</sub>
-<sub>[EXP](https://www.gander.tech/address/0x36833FC0f1f11365d1a65333F4Ad5eb378254963)</sub> | <sub>`0x36833FC0f1f11365d1a65333F4Ad5eb378254963`</sub>
-<sub>[MUSIC](https://explorer.musicoin.org/account/0x3B9410B4380Cc1B7E76bD8670dbB05C65660D6aa)</sub> | <sub>`0x3B9410B4380Cc1B7E76bD8670dbB05C65660D6aa`</sub>
-<sub>[PIRL](https://poseidon.pirl.io/explorer/address/0x0Ba74954A112D0e753805cbf3318FECea4F5A999)</sub> | <sub>`0x0Ba74954A112D0e753805cbf3318FECea4F5A999`</sub>
-<sub>[UBQ](https://ubiqscan.io/en/address/0x71821fAf020408547C08E4a1A616EB8970C56D79)</sub> | <sub>`0x71821fAf020408547C08E4a1A616EB8970C56D79`</sub>
+<a href="https://www.ledger.com?r=eda7c183c5fc"><img width=300 height=250 alt="Ledger Nano S - The secure hardware wallet" src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-0-0x2-5-0.jpg"></a>
 
-If you should decide to pick up a [Ledger Nano S](https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=MY_TRACKER) from [Ledger](https://www.ledger.com?r=eda7c183c5fc), please consider using my affiliate link:
-
-[![Ledger Nano S - The secure hardware wallet](https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-2-0x5-0.jpg)](https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=MY_TRACKER)
+</td></tr></table>
