@@ -38,7 +38,7 @@ Follow the next steps to build and install the `ethereum` app from source.  Foll
 <tr><td align="center"><sub><a href="https://ubiqscan.io/en/address/0x71821fAf020408547C08E4a1A616EB8970C56D79">UBIQ</a></sub></td><td><sub><tt>0x71821fAf020408547C08E4a1A616EB8970C56D79</tt></sub></td></tr>
 </table>
 </td><td width=300 valign="bottom">
-<sub>If you should decide to pick up a <a href="https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=MY_TRACKER">Ledger Nano S</a> from <a href="https://www.ledger.com?r=eda7c183c5fc">Ledger</a>, please consider using my affiliate link:</sub>
+<sub>If you should decide to pick up a <a href="https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=BLUE_APP_ETH_DOCKERIZED">Ledger Nano S</a> from <a href="https://www.ledger.com?r=eda7c183c5fc">Ledger</a>, please consider using my affiliate link:</sub>
 
 <a href="https://www.ledger.com?r=eda7c183c5fc"><img width=300 height=250 alt="Ledger Nano S - The secure hardware wallet" src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-0-0x2-5-0.jpg"></a>
 
