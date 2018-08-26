@@ -1,6 +1,6 @@
-# blue-app-eth dockerized builder
+# ledger-app-eth dockerized builder
 
-* All `blue-app-eth` apps depend on the latest `ethereum` app that this build system produces.
+* All `ledger-app-eth` apps depend on the latest `ethereum` app that this build system produces.
 
 * Before you begin, Remove *all* apps from the ledger.  You might have to use the ledger manager to remove the apps.  Don't worry - your wallet IDs will remain the same when you reinstall your apps later on.
 
@@ -9,7 +9,7 @@
 * If you use this build system to build and install _any_ ethereum-based apps to your ledger, then _any other_ ethereum-based apps must also be built and installed using this system.  Do not install them via ledger manager - they _all_ must be built and linked against the same version of the `ethereum` app.
 
 
-Follow the next steps to build and install the `ethereum` app from source.  Follow them again to build and install the `blue-app-eth` app of your choice:
+Follow the next steps to build and install the `ethereum` app from source.  Follow them again to build and install the `ledger-app-eth` app of your choice:
 
 1) type `make && make COIN` (replace COIN with `ethereum`, `pirl`, `akroma`, `callisto`, `ubiq`, `expanse`, etc)
 
@@ -38,7 +38,7 @@ Follow the next steps to build and install the `ethereum` app from source.  Foll
 <tr><td align="center"><sub><a href="https://ubiqscan.io/en/address/0x71821fAf020408547C08E4a1A616EB8970C56D79">UBIQ</a></sub></td><td><sub><tt>0x71821fAf020408547C08E4a1A616EB8970C56D79</tt></sub></td></tr>
 </table>
 </td><td width=300 valign="bottom">
-<sub>If you should decide to pick up a <a href="https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=BLUE_APP_ETH_DOCKERIZED">Ledger Nano S</a> from <a href="https://www.ledger.com?r=eda7c183c5fc">Ledger</a>, please consider using my affiliate link:</sub>
+<sub>If you should decide to pick up a <a href="https://www.ledger.com/products/ledger-nano-s?r=eda7c183c5fc&tracker=LEDGER_APP_ETH_DOCKERIZED">Ledger Nano S</a> from <a href="https://www.ledger.com?r=eda7c183c5fc">Ledger</a>, please consider using my affiliate link:</sub>
 
 <a href="https://www.ledger.com?r=eda7c183c5fc"><img width=300 height=250 alt="Ledger Nano S - The secure hardware wallet" src="https://www.ledgerwallet.com/images/promo/nano-s/ledger_nano-s_3-0-0x2-5-0.jpg"></a>
 
