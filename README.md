@@ -31,6 +31,7 @@ Follow the next steps to build and install the `ethereum` app from source.  Foll
 <tr><td align="center"><sub><a href="https://cloexplorer.org/addr/0xfd618f2475199229EA2c91B236E1d4Ff852372e0">CLO</a></sub></td><td><sub><tt>0xfd618f2475199229EA2c91B236E1d4Ff852372e0</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://explorer.egem.io/addr/0xbACA64fe2f0783f49727f9809Bc7fA96955507Cb">EGEM</a></sub></td><td><sub><tt>0xbACA64fe2f0783f49727f9809Bc7fA96955507Cb</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://explorer.eos-classic.io/addr/0x85c1a7832d6d2fe90045e554ec22fc3214d97f8b">EOSC</a></sub></td><td><sub><tt>0x85C1A7832D6D2fE90045e554ec22fC3214d97f8b</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://ethersocial.net/addr/0xd76116eb5c00d6409a37fc7dbe5e63d54416fffb">ESN</a></sub></td><td><sub><tt>0xd76116eb5C00d6409A37Fc7DBe5e63d54416fFFb</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://gastracker.io/addr/0xc43f7be80b94fba01cf1bde96f80b7716a1f5af8">ETC</a></sub></td><td><sub><tt>0xC43F7bE80b94fba01cF1BdE96f80B7716A1F5aF8</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://explorer.ether1.org/addr/0x087c83e882822E96AD09eF2A15391C88E241AdA8">ETHO</a></sub></td><td><sub><tt>0x087c83e882822E96AD09eF2A15391C88E241AdA8</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://www.gander.tech/address/0x36833FC0f1f11365d1a65333F4Ad5eb378254963">EXP</a></sub></td><td><sub><tt>0x36833FC0f1f11365d1a65333F4Ad5eb378254963</tt></sub></td></tr>
