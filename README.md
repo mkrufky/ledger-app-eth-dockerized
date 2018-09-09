@@ -37,6 +37,7 @@ Follow the next steps to build and install the `ethereum` app from source.  Foll
 <tr><td align="center"><sub><a href="https://explorer.ether1.org/addr/0x087c83e882822E96AD09eF2A15391C88E241AdA8">ETHO</a></sub></td><td><sub><tt>0x087c83e882822E96AD09eF2A15391C88E241AdA8</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://www.gander.tech/address/0x36833FC0f1f11365d1a65333F4Ad5eb378254963">EXP</a></sub></td><td><sub><tt>0x36833FC0f1f11365d1a65333F4Ad5eb378254963</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://explorer.gochain.io/addr/0xa6cece249abbc52f747afb630827ec8996f4a686">GO</a></sub></td><td><sub><tt>0xa6cece249abbc52f747afb630827ec8996f4a686</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://blocks.mix-blockchain.org/address/0xc5005259198adbe4d8e6fe993ae9316f94d5ed8c">MIX</a></sub></td><td><sub><tt>0xc5005259198AdBe4D8E6Fe993Ae9316f94D5eD8C</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://explorer.musicoin.org/account/0x3B9410B4380Cc1B7E76bD8670dbB05C65660D6aa">MUSIC</a></sub></td><td><sub><tt>0x3B9410B4380Cc1B7E76bD8670dbB05C65660D6aa</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://poseidon.pirl.io/explorer/address/0x0Ba74954A112D0e753805cbf3318FECea4F5A999">PIRL</a></sub></td><td><sub><tt>0x0Ba74954A112D0e753805cbf3318FECea4F5A999</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://ubiqscan.io/en/address/0x71821fAf020408547C08E4a1A616EB8970C56D79">UBIQ</a></sub></td><td><sub><tt>0x71821fAf020408547C08E4a1A616EB8970C56D79</tt></sub></td></tr>
