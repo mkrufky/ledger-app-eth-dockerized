@@ -25,6 +25,7 @@ Follow the next steps to build and install the `ethereum` app from source.  Foll
 <table>
 <tr><td align="center"><sub>Network</sub></td><td><sub>Donation Wallet ID</sub></tr>
 <tr><td align="center"><sub><a href="https://www.blockchain.com/btc/address/331mv5hFaHS2XceyW6yBeWUdhA8rPf5xPH">BTC</a></sub></td><td><sub><tt>331mv5hFaHS2XceyW6yBeWUdhA8rPf5xPH</tt></sub></td></tr>
+<tr><td align="center"><sub><a href="https://explorer.zensystem.io/address/znWtXua3oD5t8ZAhpUUBkrgJmLqoEzw75fy">ZEN</a></sub></td><td><sub><tt>znWtXua3oD5t8ZAhpUUBkrgJmLqoEzw75fy</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://etherscan.io/address/0x645Ef3204b93DB965aA4cB23eB730b06f85D0EAb">ETH</a></sub></td><td><sub><tt>0x645Ef3204b93DB965aA4cB23eB730b06f85D0EAb</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://akroma.io/en/explorer/address/0x1a81a763c422E6457617Ce465C2C1cD34242c68C">AKA</a></sub></td><td><sub><tt>0x1a81a763c422E6457617Ce465C2C1cD34242c68C</tt></sub></td></tr>
 <tr><td align="center"><sub><a href="https://scan.atheios.com/addr/0x1ebd36a9002f7345971ba5c22fb21674e5c0a7cc">ATH</a></sub></td><td><sub><tt>0x1ebd36A9002f7345971ba5c22Fb21674E5c0a7cC</tt></sub></td></tr>
