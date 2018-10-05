@@ -3,19 +3,9 @@ FROM ubuntu:16.04 AS builder
 RUN apt-get update
 RUN apt-get install -y python3 python3-setuptools python3-dev build-essential git wget tar libusb-1.0-0.dev libudev-dev gcc-multilib g++-multilib
 
-RUN easy_install3 pip
-
-RUN pip3 install virtualenv
-
-RUN git clone -b sideload https://github.com/mkrufky/blue-app-eth
-RUN git clone https://github.com/LedgerHQ/blue-loader-python
-RUN git clone https://github.com/LedgerHQ/nanos-secure-sdk
-
 RUN mkdir -p /bolos-devenv
 WORKDIR /bolos-devenv
-
 ENV BOLOS_ENV=/bolos-devenv
-ENV BOLOS_SDK=/nanos-secure-sdk
 
 RUN wget https://launchpad.net/gcc-arm-embedded/5.0/5-2016-q1-update/+download/gcc-arm-none-eabi-5_3-2016q1-20160330-linux.tar.bz2
 RUN tar xjvf gcc-arm-none-eabi-5_3-2016q1-20160330-linux.tar.bz2
@@ -24,7 +14,16 @@ RUN wget https://releases.llvm.org/4.0.0/clang+llvm-4.0.0-x86_64-linux-gnu-ubunt
 RUN tar xvf clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz
 RUN ln -s clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04 clang-arm-fropi
 
+RUN easy_install3 pip
+RUN pip3 install virtualenv
+
+WORKDIR /
+RUN git clone -b sideload https://github.com/mkrufky/blue-app-eth
+RUN git clone https://github.com/LedgerHQ/blue-loader-python
+RUN git clone https://github.com/LedgerHQ/nanos-secure-sdk
+
 WORKDIR /nanos-secure-sdk
+ENV BOLOS_SDK=/nanos-secure-sdk
 
 RUN sed -i s/python/python3/g icon.py
 
